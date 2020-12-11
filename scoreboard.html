@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="high-score">High Scores!</div>
+
+    <div class="container">
+      <div id="end" class="flex-center flex-column">
+        <h1 id="finalScore"></h1>
+        <form>
+          <input type="text" name="username" id="username" placeholder="username" />
+          <button type="submit" class="btn" id="saveScoreBtn" onclick="saveHighScore(event)">
+            Save
+          </button>
+        </form>
+
+        <form>
+          <legend>Previous high scores</legend>
+          <div id="highscoresOutput"></div>
+          </textarea type="text" name=score" id="username" placeholder="">
+
+
+
+        </form>
+
+
+
+
+
+        <a class="btn" href="index.html">Play Again</a>
+
+      </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+
+</html>
